@@ -496,7 +496,7 @@
 				INFOPLIST_FILE = LimitedAdditionTests/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marco83.LimitedAddition;
 				PRODUCT_NAME = LimitedAddition;
 				SDKROOT = macosx;
@@ -517,7 +517,7 @@
 				INFOPLIST_FILE = LimitedAdditionTests/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.marco83.LimitedAddition;
 				PRODUCT_NAME = LimitedAddition;
 				SDKROOT = macosx;
@@ -590,6 +590,7 @@
 				54D31F771C9F0FEA008B96C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54D31F781C9F0FEA008B96C9 /* Build configuration list for PBXNativeTarget "LimitedAddition-OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +599,7 @@
 				54D31F7A1C9F0FEA008B96C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
