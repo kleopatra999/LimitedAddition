@@ -30,13 +30,13 @@ extension ClampedAdditionInteger {
     
     /// Clamped addition. Result will be clamped to the maximum
     // or minimum value of the type range in case of under/overflow
-    func clampAdd(x: Self) -> Self {
+    public func clampAdd(x: Self) -> Self {
         return self +∈ x
     }
     
     /// Clamped subtraction. The result will be clamped to the maximum
     // or minimum value of the type range in case of under/overflow
-    func clampSub(x: Self) -> Self {
+    public func clampSub(x: Self) -> Self {
         return self -∈ x
     }
 }
