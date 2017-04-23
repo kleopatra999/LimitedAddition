@@ -235,9 +235,11 @@
 					};
 					54D31F631C9F0FEA008B96C9 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 					};
 					54D31F6C1C9F0FEA008B96C9 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -514,6 +516,7 @@
 				PRODUCT_NAME = LimitedAddition;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -535,6 +538,7 @@
 				PRODUCT_NAME = LimitedAddition;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -549,6 +553,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.marco83.LimitedAddition-OSXTests";
 				PRODUCT_NAME = LimitedAdditionTests;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -563,6 +568,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.marco83.LimitedAddition-OSXTests";
 				PRODUCT_NAME = LimitedAdditionTests;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
