@@ -21,7 +21,7 @@ precedence 140
 /// Signed integer with a min and max value
 /// This protocol is needed as the Int types in Swift do not
 /// conform to any protocol that has `min` and `max`
-public protocol ClampedAdditionInteger : SignedIntegerType {
+public protocol ClampedAdditionInteger : SignedInteger {
     static var max: Self { get }
     static var min: Self { get }
 }
@@ -30,13 +30,13 @@ extension ClampedAdditionInteger {
     
     /// Clamped addition. Result will be clamped to the maximum
     // or minimum value of the type range in case of under/overflow
-    public func clampAdd(x: Self) -> Self {
+    public func clampAdd(_ x: Self) -> Self {
         return self +∈ x
     }
     
     /// Clamped subtraction. The result will be clamped to the maximum
     // or minimum value of the type range in case of under/overflow
-    public func clampSub(x: Self) -> Self {
+    public func clampSub(_ x: Self) -> Self {
         return self -∈ x
     }
 }
